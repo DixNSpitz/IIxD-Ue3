@@ -152,6 +152,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .Profilangaben{
+    display:block;
     padding-top:80px;
     color: rgba(210, 210, 210, 1);
 }
@@ -266,10 +267,6 @@ a, a:hover, a:visited, a:focus {
     top:-50%;*/
 }
 
-.pop-up1, .pop-up2, .pop-up3, .pop-up4{
-    display:none;
-}
-
 .datenfeld, .beschreibung{
     color:white;
     font-size:16px;
@@ -300,4 +297,14 @@ a, a:hover, a:visited, a:focus {
 
 .sp {
 float:right;
+}
+
+.Bearbeitung{
+    display:none;
+    padding-top:80px;
+    color: rgba(210, 210, 210, 1);
+}
+
+.back{
+    display:none;
 }

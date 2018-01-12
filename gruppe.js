@@ -1,5 +1,3 @@
-
-
 $( document ).ready(function() {
     $( ".vs" ).click(function() {
       $("#pop1").css("display","block");

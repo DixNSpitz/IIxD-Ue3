@@ -1,51 +1,15 @@
 $( document ).ready(function() {
-    $( ".vs1" ).click(function() {
-      $(".pop-up1").css("display","block");
-      event.stopPropagation();
-    });
-    $('.pop-up1').click(function(event){
-        event.stopPropagation();
-    });
-
-
-$(window).click(function() {
-    $(".pop-up1").css("display","none");
-});
-
-    $( ".vs2" ).click(function() {
-      $(".pop-up2").css("display","block");
-      event.stopPropagation();
-    });
-    $('.pop-up2').click(function(event){
-        event.stopPropagation();
+    $( ".button" ).click(function() {
+      $(".Profilangaben").css("display","none");
+      $(".Bearbeitung").css("display","block");
+      $(".button").css("display", "none");
+      $(".back").css("display", "block");
     });
 
-
-$(window).click(function() {
-    $(".pop-up2").css("display","none");
-});
-
-    $( ".vs3" ).click(function() {
-      $(".pop-up3").css("display","block");
-      event.stopPropagation();
+    $(".back").click(function(){
+        $(".Profilangaben").css("display","block");
+        $(".Bearbeitung").css("display","none");
+        $(".button").css("display", "block");
+        $(".back").css("display", "none");
     });
-    $('.pop-up3').click(function(event){
-        event.stopPropagation();
-    });
-
-$(window).click(function() {
-    $(".pop-up3").css("display","none");
-});
-
-    $( ".vs4" ).click(function() {
-      $(".pop-up4").css("display","block");
-      event.stopPropagation();
-    });
-    $('.pop-up4').click(function(event){
-        event.stopPropagation();
-    });
-
-$(window).click(function() {
-    $(".pop-up4").css("display","none");
-});
 });
