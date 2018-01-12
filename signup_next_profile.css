@@ -1,0 +1,17 @@
+.imgCircle {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 200px; right: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.upload {
+    margin: auto;
+    position: absolute;
+    top: 200px; left: 70px; bottom: 0; right: 0;
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+}
