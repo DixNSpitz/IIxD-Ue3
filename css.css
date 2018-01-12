@@ -37,7 +37,7 @@ body {
 .bar {
 	width:100%;
 	height:60px;
-	border-bottom: 2px solid #A43021;
+	border-bottom: 2px solid black;
 	background-color:#de0c0c;
 }
 
@@ -46,7 +46,7 @@ body {
 	height:100%;
 	border-right: 2px solid #A43021;
 	float:left;
-	
+
 	text-align:center;
 	white-space:nowrap;
 	line-height:50px;
@@ -125,7 +125,7 @@ a, a:hover, a:visited, a:focus {
 	color:black;
 }
 
-.profile-pic{
+.profile-pic, .profile-pic2{
 	width:40px;
 	height:40px;
 	margin:10px;
@@ -137,6 +137,17 @@ a, a:hover, a:visited, a:focus {
 	background-position:center center;
 	background-size:cover;
 	overflow:hidden;
+}
+
+.profile-pic2{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin:40px;
+}
+
+.Profilangaben{
+    padding-top:80px;
 }
 
 .gruppe, .group-pic{
