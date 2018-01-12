@@ -212,6 +212,10 @@ a, a:hover, a:visited, a:focus {
 	margin-top: 5%;
 	height: 78px;
 	background-color: white;
+	background-repeat:no-repeat;
+        	background-position:center center;
+        	background-size:cover;
+
 }
 .vorschlagcontent {
 	width:90%;
@@ -283,8 +287,9 @@ a, a:hover, a:visited, a:focus {
     position:absolute;
     bottom:0px;
     margin-bottom:10px;
+    width:100%;
 }
 
-#sp {
+.sp {
 float:right;
 }
