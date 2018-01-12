@@ -1,7 +1,15 @@
-alert("hallo")
+
 
 $( document ).ready(function() {
     $( ".vs" ).click(function() {
-      alert( "Handler for .click() called." );
+      $(".pop-up").css("display","block");
+      event.stopPropagation();
     });
+    $('.pop-up').click(function(event){
+        event.stopPropagation();
+    });
+});
+
+$(window).click(function() {
+    $(".pop-up").css("display","none");
 });
