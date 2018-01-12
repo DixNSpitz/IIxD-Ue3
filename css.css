@@ -1,0 +1,154 @@
+body {
+	font-family:helvetica;
+	font-size:23px;
+	background-color:#9c5734;
+}
+
+.content-wrapper {
+	width:1200px;
+	background-color:green;
+	margin:auto;
+	margin-top:100px;
+	height:800px;
+	overflow:hidden;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bar {
+	width:100%;
+	height:60px;
+	background-color:#de0c0c;
+}
+
+.baritem {
+	width:25%;
+	height:100%;
+	border-right: 2px solid #A43021;
+	float:left;
+	
+	text-align:center;
+	white-space:nowrap;
+	line-height:50px;
+	cursor:pointer;
+}
+
+#firstbaritem {
+	width:250px;
+}
+
+.sidebar, .gruppenaw, .terminfindung, .chat {
+	height:740px;
+	float:left;
+}
+
+.sidebar {
+	width:250px;
+	height:100%;
+	background-color:#ea9734;
+}
+
+.sidebaritem {
+	width:100%;
+	height:60px;
+	background-color:#dcad8d;
+	border-bottom:1px solid darkred;
+}
+
+.sidebaritem:hover {
+	background-color:#EBD2C0;
+}
+.gruppenaw {
+	width:950px;
+	background-color:#dc8530;
+}
+
+.gruppenawitem {
+	width:100%;
+	height:90px;
+	background-color:#efb883;
+	border-bottom:1px solid darkred;
+}
+
+.gruppenawitem:hover {
+	background-color:#fde0c4;
+}
+
+.terminfindung {
+	width:650px;
+	background-color:#ca7929;
+	overflow:auto;
+}
+.chat {
+	width:300px;
+	background-color:#b96511;
+}
+
+.chatverlauf {
+	height:700px;
+	width:100%;
+}
+
+a, a:hover, a:visited, a:focus {
+	color:black;
+}
+
+.profile-pic {
+	width:40px;
+	height:40px;
+	margin:10px;
+	border-radius:20px;
+	float:left;
+	background-color:lime;
+}
+.group-pic {
+	width:60px;
+	height:60px;
+	margin:15px;
+	border-radius:30px;
+	float:left;
+	background-color:lime;
+}
+
+.vorschlag {
+	width:23.75%;
+	height:23.75%;
+	margin:1% 0px 0px 1%;
+	float:left;
+	background-color:rgba(255,255,255,0.5);
+	font-size:16px;
+}
+
+.vorschlag:hover {
+	background-color:rgba(255,255,255,0.75);
+}
+
+.thumbnail {
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	height: 50%;
+	background-color: white;
+}
+.vorschlagcontent {
+	width:90%;
+	margin:auto;
+	height:45%;
+}
+.vorschlagtext{
+	width:70%;
+	float:left;
+}
+.vorschlagbewertung {
+	width:30%;
+	height:100%;
+	float:left;
+}
+.vote {
+	margin: auto;
+	width: 83%;
+	height: 40%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 5px;
+	background-color: white;
+}
