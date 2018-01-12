@@ -26,31 +26,32 @@ body {
 
 .content-wrapper {
 	width:1200px;
-	background-color:#ca7929;
+	background-color: rgba(100, 15, 15, 0.9);//#ca7929;
 	margin:auto;
 	margin-top:100px;
 	height:800px;
 	overflow:hidden;
-	
+	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .bar {
 	width:100%;
 	height:60px;
-	border-bottom: 2px solid black;
-	background-color:#de0c0c;
+	border-bottom: 2px solid rgba(210, 210, 210, 1.0);
+	background-color: rgba(90, 4, 4, 0.9);//#de0c0c;
 }
 
 .baritem {
 	width:25%;
 	height:100%;
-	border-right: 2px solid #A43021;
+	border-right: 2px solid rgba(165, 40, 40, 1.0);
 	float:left;
 
 	text-align:center;
 	white-space:nowrap;
 	line-height:50px;
 	cursor:pointer;
+	color: rgba(210, 210, 210, 1.0);
 }
 
 .baritemls{
@@ -77,43 +78,47 @@ body {
 .sidebar {
 	width:250px;
 	height:100%;
-	background-color:#ea9734;
+	background-color: rgba(127, 15, 15, 0.9);//#de0c0c;
+	border-right: 2px solid rgba(165, 40, 40, 1.0);
 }
 
 .sidebaritem {
 	width:100%;
 	height:60px;
-	background-color:#dcad8d;
-	border-bottom:1px solid darkred;
+	background-color: rgba(127, 15, 15, 0.9);//#de0c0c;
+	border-bottom: 2px dotted rgba(165, 40, 40, 1.0);
 }
 
 .sidebaritem:hover {
-	background-color:#EBD2C0;
+	background-color: rgba(165, 40, 40, 1.0);//#de0c0c;
 }
 .gruppenaw {
 	width:950px;
-	background-color:#dc8530;
+	background-color: rgba(127, 15, 15, 0.9);
 }
 
 .gruppenawitem {
 	width:100%;
 	height:90px;
-	background-color:#efb883;
-	border-bottom:1px solid darkred;
+	background-color: rgba(127, 15, 15, 0.9);//#de0c0c;
+	border-bottom: 2px dotted rgba(165, 40, 40, 1.0);
+	color: rgba(210, 210, 210, 1.0);
 }
 
 .gruppenawitem:hover {
-	background-color:#fde0c4;
+	background-color: rgba(165, 40, 40, 1.0);//#de0c0c;
 }
 
 .terminfindung {
 	width:650px;
-	background-color:#ca7929;
+	background-color: rgba(100, 15, 15, 0.9);
 	overflow:auto;
+	color: rgba(210, 210, 210, 1.0);
 }
 .chat {
 	width:300px;
-	background-color:#b96511;
+	background-color: rgba(127, 15, 15, 0.9);//#de0c0c;
+	border-left: 2px solid rgba(165, 40, 40, 1.0);
 }
 
 .chatverlauf {
@@ -122,7 +127,7 @@ body {
 }
 
 a, a:hover, a:visited, a:focus {
-	color:black;
+	color: rgba(210, 210, 210, 1.0);
 }
 
 .profile-pic, .profile-pic2{
@@ -148,6 +153,7 @@ a, a:hover, a:visited, a:focus {
 
 .Profilangaben{
     padding-top:80px;
+    color: rgba(210, 210, 210, 1);
 }
 
 .gruppe, .group-pic{
@@ -198,12 +204,12 @@ a, a:hover, a:visited, a:focus {
 	height:23.75%;
 	margin:1% 0px 0px 1%;
 	float:left;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(120, 50, 50, 1.0);
 	font-size:16px;
 }
 
 .vorschlag:hover {
-	background-color:rgba(255,255,255,0.75);
+	background-color:rgba(165, 30, 30,0.75);
 }
 
 .thumbnail {
@@ -255,6 +261,7 @@ a, a:hover, a:visited, a:focus {
     height:600px;
     background-color:#902319;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
     /*left:-50%;
     top:-50%;*/
 }
@@ -275,6 +282,7 @@ a, a:hover, a:visited, a:focus {
     height:300px;
     margin:5px 20px 0px 5px;
     float:left;
+    border-radius: 5px;
 }
 
 .beschreibung {
