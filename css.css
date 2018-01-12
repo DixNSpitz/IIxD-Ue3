@@ -117,6 +117,13 @@ a, a:hover, a:visited, a:focus {
 	border-radius:20px;
 	float:left;
 	background-color:lime;
+	background-image:url("default.jpeg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+.small-margin {
+    margin:2px;
 }
 .group-pic {
 	width:60px;
@@ -204,5 +211,13 @@ a, a:hover, a:visited, a:focus {
 }
 
 .beschreibung {
-    width:100%;
+    width:990px;
+    text-align:justify;
+    margin:5px 0 0 5px;
+}
+
+.watching {
+    position:absolute;
+    bottom:0px;
+    margin-bottom:10px;
 }
