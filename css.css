@@ -4,9 +4,15 @@ body {
 	background-color:#9c5734;
 }
 
+.main{
+    width: 1000px;
+    height: 100%;
+    padding-left: 260px;
+}
+
 .content-wrapper {
 	width:1200px;
-	background-color:green;
+	background-color:grey;
 	margin:auto;
 	margin-top:100px;
 	height:800px;
@@ -26,6 +32,18 @@ body {
 	border-right: 2px solid #A43021;
 	float:left;
 	
+	text-align:center;
+	white-space:nowrap;
+	line-height:50px;
+	cursor:pointer;
+}
+
+.baritemls{
+    width:12.5%;
+	height:100%;
+	border-right: 2px solid #A43021;
+	float:left;
+
 	text-align:center;
 	white-space:nowrap;
 	line-height:50px;
