@@ -12,7 +12,7 @@
     border-style: solid;
     border-color: white;
     border-width: 2px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(127, 20, 20, 0.85);
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
@@ -47,7 +47,7 @@
 
 .email{
     top: 200px;
-    left: 75px;
+    left: 150px;
     position: absolute;
 }
 
@@ -64,32 +64,32 @@
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    rgba(100, 100, 100, 1);
+   color:    rgba(255, 255, 255, 1);
    font-size: 60%;
    opacity:  0.7;
 }
 
 .field{
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
     border-radius: 4px;
 }
 
 input[type=email] {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
     border-radius: 4px;
 }
 
 input[type=text] {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
     border-radius: 4px;
     height: 400%;
 }
 
 input[type=password] {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
     border-radius: 4px;
 }
