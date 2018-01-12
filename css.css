@@ -128,6 +128,13 @@ a, a:hover, a:visited, a:focus {
 	border-radius:20px;
 	float:left;
 	background-color:lime;
+	background-image:url("default.jpeg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+.small-margin {
+    margin:2px;
 }
 .group-pic {
 	width:60px;
@@ -198,4 +205,30 @@ a, a:hover, a:visited, a:focus {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /*left:-50%;
     top:-50%;*/
+}
+
+.datenfeld, .beschreibung{
+    color:white;
+    font-size:16px;
+    float:left;
+}
+
+.platzhalterbild {
+    background-color:white;
+    width:250px;
+    height:300px;
+    margin:5px 20px 0px 5px;
+    float:left;
+}
+
+.beschreibung {
+    width:990px;
+    text-align:justify;
+    margin:5px 0 0 5px;
+}
+
+.watching {
+    position:absolute;
+    bottom:0px;
+    margin-bottom:10px;
 }
