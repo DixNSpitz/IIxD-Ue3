@@ -87,6 +87,7 @@ body {
 	height:60px;
 	background-color: rgba(127, 15, 15, 0.9);//#de0c0c;
 	border-bottom: 2px dotted rgba(165, 40, 40, 1.0);
+	color: rgba(210, 210, 210, 1);
 }
 
 .sidebaritem:hover {
@@ -193,7 +194,7 @@ a, a:hover, a:visited, a:focus {
 	margin:15px;
 	border-radius:30px;
 	float:left;
-	background-color:lime;
+	background-color: rgba(210, 210, 210, 1);
 	background-repeat:no-repeat;
     	background-position:center center;
     	background-size:cover;

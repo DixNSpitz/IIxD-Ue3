@@ -33,7 +33,6 @@
       margin: auto;
       position: absolute;
       top: 0; left: 400px; bottom: 0; right: 0;
-      transform: rotate(-90deg);
 }
 
 .nextButton{
@@ -42,7 +41,7 @@
     size: 40%;
     position: absolute;
     margin: auto;
-    left = 0; right = 0; top = 0; bottom = 0;
+    left: 8px;
 }
 
 .email{
@@ -70,19 +69,22 @@
 }
 
 input[type=email] {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid white;
     border-radius: 4px;
+    color: rgba(240, 240, 240, 1);
 }
 
 input[type=text] {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid white;
     border-radius: 4px;
+    color: rgba(240, 240, 240, 1);
 }
 
 input[type=password] {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid white;
     border-radius: 4px;
+    color: rgba(240, 240, 240, 1);
 }
