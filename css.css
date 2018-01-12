@@ -126,7 +126,7 @@ a, a:hover, a:visited, a:focus {
 	width: 90%;
 	margin: auto;
 	margin-top: 5%;
-	height: 50%;
+	height: 78px;
 	background-color: white;
 }
 .vorschlagcontent {
@@ -143,6 +143,7 @@ a, a:hover, a:visited, a:focus {
 	height:100%;
 	float:left;
 }
+
 .vote {
 	margin: auto;
 	width: 83%;
@@ -152,3 +153,4 @@ a, a:hover, a:visited, a:focus {
 	border-radius: 5px;
 	background-color: white;
 }
+
