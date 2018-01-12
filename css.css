@@ -140,7 +140,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .gruppe {
-
+    background-image:url("gruppenbild.png");
 }
 
 .small-margin {
@@ -264,4 +264,8 @@ a, a:hover, a:visited, a:focus {
     position:absolute;
     bottom:0px;
     margin-bottom:10px;
+}
+
+#sp {
+float:right;
 }
