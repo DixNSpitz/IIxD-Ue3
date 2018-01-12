@@ -255,6 +255,10 @@ a, a:hover, a:visited, a:focus {
     top:-50%;*/
 }
 
+.pop-up1, .pop-up2, .pop-up3, .pop-up4{
+    display:none;
+}
+
 .datenfeld, .beschreibung{
     color:white;
     font-size:16px;

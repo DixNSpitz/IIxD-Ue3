@@ -28,20 +28,39 @@
     <div class="main">
         <div class="profile-pic2"></div>
         <div class="Profilangaben">
-            <b>Benutzername: </b>MaxMuster123
-            <br><br>
-            <b>E-Mail: </b>maxmuster123@gmail.com
-            <br><br>
-            <b>Geburtsdatum: </b>01.04.1990
-            <br><br>
-            <b>Passwort: </b>*********
+            <b>Benutzername: </b><div>MaxMuster123</div>
+            <br>
+            <b>E-Mail: </b><div>maxmuster123@gmail.com</div>
+            <br>
+            <b>Geburtsdatum: </b><div style="margin-left:310px;">01.04.1990</div>
+            <br>
+            <b style="margin-left:310px;">Passwort: </b>*********
         </div>
 
-        <div style="width:50px; height:200px; position:relative; top:-255px; left:665px;">
-            <a href="#"><img style="width:50px; height:50px; margin:9px;" src="bearbeiten-icon.png"></a>
-            <a href="#"><img style="width:50px; height:50px; margin:9px;" src="bearbeiten-icon.png"></a>
-            <a href="#"><img style="width:50px; height:50px; margin:9px;" src="bearbeiten-icon.png"></a>
-            <a href="#"><img style="width:50px; height:50px; margin:9px;" src="bearbeiten-icon.png"></a>
+        <div style="width:50px; height:200px; position:relative; top:-360px; left:665px;">
+            <a class="vs1" href="#"><img style="width:50px; height:50px; margin:25px;" src="bearbeiten-icon.png"></a>
+            <a class="vs2" href="#"><img style="width:50px; height:50px; margin:25px;" src="bearbeiten-icon.png"></a>
+            <a class="vs3" href="#"><img style="width:50px; height:50px; margin:25px;" src="bearbeiten-icon.png"></a>
+            <a class="vs4" href="#"><img style="width:50px; height:50px; margin:25px;" src="bearbeiten-icon.png"></a>
+        </div>
+
+        <div style="position:relative; top:-500px; left:310px;">
+            <form class="pop-up1" style="margin-bottom:50px;">
+                <input type="text" name="form1" style="width:250px;">
+                <button type="submit" onclick="submit1"><img src="check.png" style="width:25px; height:25px;"></button>
+            </form>
+            <form class="pop-up2" style="margin-bottom:50px;">
+                <input type="text" name="form2" style="width:250px;">
+                <button type="submit" onclick="submit2"><img src="check.png" style="width:25px; height:25px;"></button>
+            </form>
+            <form class="pop-up3" style="margin-bottom:50px;">
+                <input type="text" name="form3" style="width:250px;">
+                <button type="submit" onclick="submit3"><img src="check.png" style="width:25px; height:25px;"></button>
+            </form>
+            <form class="pop-up4" style="margin-bottom:50px;">
+                <input type="text" name="form4" style="width:250px;">
+                <button type="submit" onclick="submit4"><img src="check.png" style="width:25px; height:25px;"></button>
+            </form>
         </div>
     </div>
 </div>
@@ -51,5 +70,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script src="profil.js"></script>
 </body>
 </html>
