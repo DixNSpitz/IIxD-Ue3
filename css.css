@@ -139,7 +139,7 @@ a, a:hover, a:visited, a:focus {
 	overflow:hidden;
 }
 
-.gruppe {
+.gruppe, .group-pic{
     background-image:url("gruppenbild.png");
 }
 
@@ -176,6 +176,10 @@ a, a:hover, a:visited, a:focus {
 	border-radius:30px;
 	float:left;
 	background-color:lime;
+	background-repeat:no-repeat;
+    	background-position:center center;
+    	background-size:cover;
+    	overflow:hidden;
 }
 
 .vorschlag {
